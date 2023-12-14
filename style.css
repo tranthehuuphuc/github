@@ -1,22 +1,22 @@
 body {
-	background-color: gray;
+	background-color: lightblue;
 }
 
 h1 {
-	font-color: lightblue;
+	color: navy;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: Trebuchet MS;
 }
 
 h2 {
-	font-color: black;
+	color: navy;
 	font-size: 25px;
 	font-family: Geneva;
 }
 
 p {
-	font-color: navy;
+	color: black;
 	font-size: 20px;
 	font-family: Helvetica;
 }
