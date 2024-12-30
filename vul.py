@@ -1,6 +1,6 @@
 from pwn import *
-
-context.log_level = 'info'
+import warnings
+warnings.filterwarnings("ignore", module="pwnlib.elf")
 
 # Load ELF và libc
 elf = ELF("./ropchain")
