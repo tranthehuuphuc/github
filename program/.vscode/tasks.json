@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++ build active file",
+			"command": "/msys64/mingw32/bin/g++",
+			"args": [
+				"-m32",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.exe",
+			],
+			"options": {
+				"cwd": "/msys64/mingw32/bin"
+			},
+			"problemMatcher": [
+				"$g++"
+			],
+			"group": {
+                "kind": "build",
+                "isDefault": true
+            },
+			"detail": "compiler: /msys64/mingw32/bin/g++"
+		}
+	]
+}
