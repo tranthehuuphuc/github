@@ -1,3 +1,12 @@
-*Personal Synchronizer
+# Personal Synchronizer
 
-**Usage: git clone git@github.com:tranthehuuphuc/github.git
+## Usage 
+### SSH:
+```
+git clone git@github.com:tranthehuuphuc/github.git
+```
+### HTTPS:
+```
+git clone https://github.com/tranthehuuphuc/github.git
+```
+
