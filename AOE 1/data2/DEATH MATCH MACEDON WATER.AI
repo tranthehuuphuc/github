@@ -1,0 +1,93 @@
+//Death Match Macedon Water.AI
+//7/18/1998
+//10 hoppers, 15 horse archers, 12 triremes, 4 cat triremes 
+//5-4 villagers; 2 hvy transports
+//20 Soldiers deployed in 18 Minutes
+// 
+//By Ensemble Studios
+ 
+
+//Quick, Threaded, Research to the Iron Age
+B109      Town_Center1         1      -1     
+U83       Man                  5      109    
+B45       Dock_1               1      -1     
+T83       Man                  4      109   1
+B12       Barracks1            1      -1
+
+C101    Tool_Age               1      109   
+B84       Market1              1      -1  
+B101      Stable1              1      -1
+B45       Dock_1               1      -1     
+
+C102    Bronze_Age             1      109    
+B45       Dock_1               1      -1     
+B82       Government_Center    1      -1
+B0        Academy              1      -1     
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R41     Leather_Armor_-_Archer 1      103    
+R40     Leather_Armor_-_Soldie 1      103
+R46     Tool_Working           1      103
+R43     Scale_Armor_-_Soldiers 1      103
+R51     Metalworking           1      103 
+R47     Bronze-Shield          1      103
+R48     Chain_Mail_-_Soldiers  1      103    
+R44     Scale_Armor_-_Archers  1      103    
+R106    Ballistics             1      82     
+R113    Aristocracy            1      82
+R49     Chain_Mail_-_Archers   1      103    
+R52     Metallurgy             1      103
+R117    Iron-Shield            1      103
+R73     Phalanx                1      0
+B87       Range1               1      -1     
+R107    Wood_Working           1      84     
+R32     Artisanship            1      84     
+R110    Craftmanship           1      84     
+R122    Tower-Shield           1      103
+U93       Soldier-Phal1        2      0
+B87       Range1               1      -1
+U39       Soldier-Cavalry3_Arc 2      87     
+B0        Academy              1      -1
+B87       Range1               1      -1     
+U93       Soldier-Phal1        2      0
+U39       Soldier-Cavalry3_Arc 2      87     
+B87       Range1               1      -1     
+U39       Soldier-Cavalry3_Arc 2      87     
+
+//Low Priority Build Items
+R37     Alchemy                1      82     
+U39       Soldier-Cavalry3_Arc 2      87     
+U93       Soldier-Phal1        2      0      
+B109      Town_Center1         1      -1
+B45       Dock_1               1      -1     
+R5      Medium_War_Ship        1      45     
+U39       Soldier-Cavalry3_Arc 2      87     
+R7      Trireme                1      45
+U19       Warship1             4      45
+B45       Dock_1               1      -1     
+B104      Temple1              1      -1     
+R9      Trireme_with_Catapult  1      45     
+U250      Boat-War4            1      45        
+U19       Warship1             2      45
+R8      Heavy-Transport        1      45
+U93       Soldier-Phal1        2      0         
+U250      Boat-War4            1      45     
+U19       Warship1             2      45
+U17       Boat-Trans1          2      45     
+U19       Warship1             2      45
+U250      Boat-War4            1      45     
+R79     Centurion              1      0      
+R38     Heavy_Horse_Archer     1      87     
+U39       Soldier-Cavalry3_Arc 5      87     
+R16     Watch_Tower            1      68     
+U19       Warship1             2      45
+R12     Sentry_Tower           1      68     
+U250      Boat-War4            1      45
+R15     Guard_Tower            1      68     
+U93       Soldier-Phal1        2      0         
+R2      Ballista-Tower         1      68
+B79       Watch_Tower          19      -1
+
+//End

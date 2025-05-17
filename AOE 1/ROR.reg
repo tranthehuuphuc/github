@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Microsoft Games\Age of Empires Expansion\1.0]
+"Version"="1.0"
+"Zone"="http://www.zone.com/asp/aeepredir.asp"
+"Launched"="1"
+"PID"="83622-442-9916566-06742"
+"EXE Path"="C:\\Games\\Empire"
+"VersionType"="RetailVersion"
+"InstalledGroup"="1"
+"LangID"=dword:00000009
+

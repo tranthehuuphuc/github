@@ -1,0 +1,82 @@
+//Death Match Minoa.  
+//Version 1.0: August 5, 1997
+//18 Juggernaughts, 20 Helepolis, 6 Triremes
+//20 Soldiers/ships deployed in 16 minutes
+//
+//By Ensemble Studios
+ 
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  8      109          
+B45       Dock_1               1      -1 
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109       
+B87       Range1               1      -1   
+R5      Medium_War_Ship        1      45
+B84       Market1              1      -1
+
+C102    Bronze_Age             1      109
+B82       Government_Center    1      -
+B49       Siege_Workshop       1      -1
+R107    Wood_Working           1      84
+R35     Engineering            1      82     
+
+C103    Iron_Age               1      109
+
+//High Pririty build Items
+R7      Trireme                1      45          
+B49       Siege_Workshop       1      -1
+R32     Artisanship            1      84    
+U11       Soldier-Balista      2      49
+B45       Dock_1               1      -1 
+R110    Craftmanship           1      84
+U19       Boat-War1            1      45
+B49       Siege_Workshop       1      -1
+U11       Soldier-Balista      2      49
+R9      Trireme_with_Catapult  1      45
+R27     Helepolis              1      49
+U250      Boat-War4            2      45
+R25     Juggernaught           1      45     
+B45       Dock_1               1      -1
+
+
+//Low Priority Build Items
+U19       Boat-War1            1      45
+U250      Boat-War4            2      45
+U11       Soldier-Balista      2      49
+R37     Alchemy                1      82
+U250      Boat-War4            2      45
+R16     Watch_Tower            1      68           
+U11       Soldier-Balista      2      49
+U19       Boat-War1            1      45     
+R106    Balistics              1      82     
+U250      Boat-War4            2      45
+U11       Soldier-Balista      2      49
+R28     Wheel                  1      84           
+U19       Boat-War1            1      45     
+U35       Soldier-Catapult1    1      49     
+U11       Soldier-Balista      2      49
+U250      Boat-War4            2      45
+U35       Soldier-Catapult1    1      49     
+U19       Boat-War1            1      45      
+B45       Dock_1               1      -1
+U11       Soldier-Balista      2      49
+R12     Sentry_Tower           1      68
+U250      Boat-War4            2      45
+B109      Town_Center1         1      -1           
+U11       Soldier-Balista      2      49
+R114    Writing                1      82    
+B79       Watch_Tower          2      -1
+U17       Boat-Transport1      2      45     
+R8      Heavy_Transport        1      45
+U250      Boat-War4            2      45
+U250      Boat-War4            2      45
+R54     Heavy_Catapult         1      49     
+U19       Boat-War1            1      45     
+U250      Boat-War4            4      45
+U11       Soldier-Balista      4      49     
+B79       Watch_Tower          19      -1
+
+//End

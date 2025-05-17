@@ -1,0 +1,98 @@
+//Death Match Babylon.  
+//Version 1.0: August 15, 1997
+//20 Heavy Catapults 15 Priests, 25 Ballista Towers, 10 Scythe Chariots
+//4-5 villagers
+//20 Soldiers deployed in ? minutes
+//Revision 1: 6/22/98: X-Pack changes; made some villagers trainees; added
+//scythe chariots & traded some priests & cats for them; added chariot armor
+//& attack upgrades; dropped writing; added nobility; made gov center appear 
+//earlier; moved up Engineering
+//
+//By Ensemble Studios
+ 
+
+//Quick Threaded, Research to the Iron Age
+
+B109      Town_Center1         1      -1           
+U83       Man                  5      109      
+T83       Man                  4      109      1    
+B12       Barracks1            1      -1  
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1           
+B101      Stable1              1      -1 
+
+C102    Bronze_Age             1      109
+B104      Temple1              1      -1  
+B82       Government_Center    1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+B87       Range1               1      -1
+R16     Watch_Tower            1      68
+R42     Leather-Armor-Cav      1      103
+R46     Toolworking            1      103
+R28     Wheel                  1      84
+U40       Soldier-Chariot1     2      101
+R45     Scale-Armor-Cav        1      103
+R21     Mysticism              1      104    
+U40       Soldier-Chariot1     2      101
+B49       Siege_Workshop       1      -1
+R22     Astrology              1      104
+B101      Stable1              1      -1 
+R34     Nobility               1      82
+R51     Metalworking           1      103
+B104      Temple1              1      -1     
+B49       Siege_Workshop       1      -1
+R54     Heavy_Catapult         1      49
+U40       Soldier-Chariot1     2      101
+U125      Priest               2      104    
+B104      Temple1              1      -1     
+U35       Soldier-Catapult1    1      49     
+R24     Polytheism             1      104
+B49       Siege_Workshop       1      -1
+B104      Temple1              1      -1
+R19     Monotheism             1      104    
+U35       Soldier-Catapult1    2      49     
+R20     Fanaticism             1      104
+R18     Afterlife              1      104
+U35       Soldier-Catapult1    2      49     
+R23     Jihad                  1      104
+R126    Scythe-Chariot         1      101
+
+//Low Priority Build Items
+B49       Siege_Workshop       1      -1
+R35     Engineering            1      82           
+U125      Priest               2      104
+U35       Soldier-Catapult1    2      49     
+R12     Sentry_Tower           1      68
+U35       Soldier-Catapult1    2      49     
+B79       Watch_Tower          1      -1       
+R106    Ballistics             1      82     
+B109      Town_Center1         1      -1           
+U125      Priest               2      104
+R15     Guard_Tower            1      68     
+B79       Watch_Tower          2      -1
+U125      Priest               2      104                 
+R2      Catapult_Tower         1      68     
+R107    Wood_Working           1      84     
+B79       Watch_Tower          2      -1       
+U125      Priest               2      104                  
+R32     Artisanship            1      84     
+B79       Watch_Tower          2      -1
+U35       Soldier-Catapult1    2      49     
+R110    Craftmanship           1      84
+B79       Watch_Tower          2      -1 
+U35       Soldier-Catapult1    2      49     
+U125      Priest               2      104
+U35       Soldier-Catapult1    2      49     
+R112    Architecture           1      82     
+U125      Priest               3      104
+U35       Soldier-Catapult1    5      49     
+U40       Soldier-Chariot1     4      101
+B79       Watch_Tower          16      -1 
+
+//End
+
+

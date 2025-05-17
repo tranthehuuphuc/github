@@ -1,0 +1,82 @@
+//Palmyra Destroyer.ai
+//9/11/2003
+//Limit Archer Chariots
+//retrains: no retrains
+//22 villagers
+//By Nguyen anh Tuan
+
+B109      Town_Center1         1      -1     
+U83       Man                  6      109    
+B12       Barracks1            1      -1     
+U83       Man                  4      109    
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1     
+B50       Farm                 2      -1  
+U83       Man                  2      109  
+R107    Wood_Working           1      84 
+B50       Farm                 1      -1  
+U83       Man                  2      109    
+R81     Domestication          1      84     
+B87       Range1               1      -1    
+B50       Farm                 1      -1  
+U83       Man                  2      109      
+
+C102    Bronze_Age             1      109 
+R28     Wheel                  1      84     
+U83       Man                  2      109   
+R16     Watch_Tower            1      68     
+B79       Watch_Tower          4      -1     
+B50       Farm                 2      -1  
+R34     Nobility               1      82     
+R32     Artisanship            1      84       
+B82       Government_Center    1      -1
+R31     Plow                   1      84     
+B104      Temple1              1      -1
+
+C103    Iron_Age               1      109    
+U83       Man                  4      109   
+B79       Watch_Tower          4      -1     
+B87       Range1               4      -1    
+R41	  Leather_Armor_-_Archer 1	    103
+R110	  Craftsmanship          1      84
+B50       Farm                 2      -1  
+B87       Range1               7      -1    
+B50       Farm                 2      -1  
+U41       Soldier-Chariot2     2      87            
+R44     Scale_Armor_-_Archers  1      103 
+U41       Soldier-Chariot2     2      87            
+R37     Alchemy                1      82        
+U41       Soldier-Chariot2     2      87            
+R49       Chain_Mail_-_Archers 1      103
+B50       Farm                 2      -1  
+U41       Soldier-Chariot2     10      87            
+R106    Ballistics             1      82           
+B50       Farm                 2      -1  
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87            
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     20      87     
+U41       Soldier-Chariot2     100      87            
+
+//End
+

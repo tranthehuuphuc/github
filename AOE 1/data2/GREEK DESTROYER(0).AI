@@ -1,0 +1,244 @@
+//Greek Destroyer(0).ai
+//9/17/2003
+//Limit  Helepolis and Heavy Catapult
+//retrains: no retrains
+//10 villagers
+//By Nguyen anh Tuan
+
+B109      Town_Center1         1      -1     
+U83       Man                  4      109    
+B12       Barracks1            1      -1     
+U83       Man                  2      109    
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1     
+R107    Wood_Working           1      84 
+B50       Farm                 2      -1  
+U83       Man                  2      109  
+R81     Domestication          1      84     
+B50       Farm                 1      -1  
+U83       Man                  2      109    
+R109    Stone_Mining           1      84
+B87       Range1               1      -1    
+B101      Stable1              1      -1       
+R108    Gold_Mining            1      84     
+B50       Farm                 1      -1  
+
+C102    Bronze_Age             1      109 
+R28     Wheel                  1      84     
+R16     Watch_Tower            1      68     
+B79       Watch_Tower          10      -1     
+R32     Artisanship            1      84       
+B50       Farm                 2      -1  
+B82       Government_Center    1      -1
+R31     Plow                   1      84     
+B104      Temple1              1      -1
+
+C103    Iron_Age               1      109    
+R110	  Craftsmanship          1      84
+R106    Ballistics             1      82
+R46     Tool_Working           1      103      
+R41	  Leather_Armor_-_Archer 1	    103
+R42	  Leather_Armor_Mounted  1      103
+B79       Watch_Tower          6      -1     
+R80     Irrigation             1      84     
+R12     Sentry_Tower           2      68         
+R111    Siege_Craft            1      84     
+R37     Alchemy                1      82        
+R51	    Metal_Working        1      103
+R45     Scale_Armor-Cavalry    1      103          
+R44     Scale_Armor_-_Archers  1      103 
+B49       Siege_Workshop       6      -1
+R34     Nobility               1      82     
+R52     Metallurgy             1      103
+R50     Chain_Mail_-_Cavalry	 1      103
+R49       Chain_Mail_-_Archers 1      103
+B50       Farm                 2      -1     
+R15     Guard_Tower            1      68         
+R35     Engineering            1      82           
+R40     Leather_Armor_-_Soldie 1      103    
+R47     Bronze_Shield          1      103
+B50       Farm                 2      -1  
+R2      Ballista_Tower         1      68     
+R43     Scale_Armor_-_Soldiers 1      103
+R117    Iron_Shield            1      103    
+R54     Heavy_Catapult         1      49     
+B49       Siege_Workshop       6      -1
+B50       Farm                 2      -1  
+R36     Massive_Catapult       1      49
+R23     Jihad                  1      104
+R48     Chain_Mail_-_Soldiers  1      103       
+B50       Farm                 2      -1  
+R112    Architecture           1      82     
+R27     Helepolis              1      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+T299      Soldier-Scout        1      101      2
+U11       Soldier-Balista      21      49
+U35       Soldier-Catapult1    18      49     
+
+//End
+

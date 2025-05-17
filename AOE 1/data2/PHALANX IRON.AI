@@ -1,0 +1,78 @@
+//Phalanx Iron 
+//used by greek, hittite, minoa, phoenicia, sumer,
+//yamato, carthage, hellene, palmyra, rome
+//18 Phalanx, 6 Catapults 
+//retrains; 4 axemen, 4 slingers
+//17-8 villagers
+//Revision 2: 7/08/97:
+//Revision 3: 7/16/97: Market moved up; Scouts on limited retrain
+//Revision 4: 6/09/98: X-Pack revisions; traded some clubmen for Slingers; 
+//decreased Clubman retrain; added Tower Shield
+//Revision 5: dropped farms; moved catapult to after siege workshop,
+//removed all priest bonuses except medicine
+//revision 6: 7/24/98: removed upgrades not received by civs using this ai
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1        
+U83       Man                  4      109       
+B12       Barracks1            1      -1        
+U83       Man                  4      109       
+T83       Man                  4      109       2
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1        
+U83       Man                  2      109  
+B87       Range1               1      -1             
+B50       Farm                 2      -1     
+U83       Man                  2      109       
+R63     Axe                    1      12     
+B101      Stable1              1      -1        
+U83       Man                  2      109       
+U83       Man                  1      109       
+B50       Farm                 2      -1     
+U83       Man                  2      109       
+R109    Stone_Mining           1      84     
+
+C102    Bronze_Age             1      109       
+B82       Government_Center    1      -1        
+R28     Wheel                  1      84        
+B0        Academy              1      -1        
+U93       Soldier-Phal1        2      0         
+R40     Leather_Armor_-_Soldie 1      103       
+T83       Man                  2      109          1       
+B50       Farm                 2      -1     
+U93       Soldier-Phal1        2      0         
+R107    Wood_Working           1      84        
+U93       Soldier-Phal1        2      0         
+T83       Man                  2      109          1       
+R43     Scale_Armor-Soldiers   1      103       
+R108    Gold_Mining            1      84        
+B49       Siege_Workshop       1      -1        
+U35       Soldier-Catapult1    2      49        
+R47     Bronze_Shield          1      103       
+R46     Tool_Working           1      103       
+R81     Domestication          1      84     
+B50       Farm                 2      -1     
+U35       Soldier-Catapult1    2      49        
+
+C103    Iron_Age               1      109       
+R30     Coinage                1      84        
+U93     Soldier-Phal1          2      0         
+R51     Metal_Working          1      103       
+R113    Aristocracy            1      82     
+R73     Phalanx                1      0
+R32     Artisanship            1      84        
+R48     Chain_Mail_-_Soldiers  1      103       
+U93     Soldier-Phal1          2      0         
+R52     Metallurgy             1      103       
+B0        Academy              1      -1        
+U93     Soldier-Phal1          2      0         
+U35       Soldier-Catapult1    2      49        
+U93     Soldier-Phal1          2      0         
+R117    Iron_Shield            1      103       
+U93     Soldier-Phal1          2      0         
+U93     Soldier-Phal1          2      0         
+R79     Centurion              1      0      
+
+//End

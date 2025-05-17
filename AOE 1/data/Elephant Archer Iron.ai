@@ -1,0 +1,74 @@
+//Elephant Archer Iron.  Elephant Archers in the Iron Age.
+//15 Elephant Archers, 5 Cavalry, 3 Inf, 2 Balista, 2 Archers, 
+//2 Catapults, 1 Elephant
+//
+//Revision 2.0: Changed Cav3 to Cav1
+//Revision 3.0: 7/16/77: Market moved up; Scouts on limited retrain
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1        
+U83       Man                  7      109       
+B12       Barracks1            1      -1        
+T73       Soldier-Inf1         2      12        3 
+T83       Man                  3      109       2
+
+C101    Tool_Age               1      109       
+T83       Man                  2      109       2
+B84       Market1              1      -1        
+B87       Range1               1      -1        
+T4        Soldier-Archer1      2      87        2
+B101      Stable1              1      -1     
+U83       Man                  2      109       
+R16     Watch_Tower            1      68        
+B79       Watch_Tower          2      -1     
+U83       Man                  2      109       
+R107    Wood_Working           1      84        
+R46	  Tool_Working		 1	  103
+U83       Man                  2      109       
+B50       Farm                 2      -1        
+U83       Man                  2      109       
+B50       Farm                 2      -1        
+R63     Axe                    1      12        
+
+C102    Bronze_Age             1      109       
+B82       Government_Center    1      -1        
+U83       Man                  2      109       
+B49       Siege_Workshop       1      -1        
+B50       Farm                 1      -1        
+R28     Wheel                  1      84        
+U83       Man                  1      109       
+R41     Leather_Armor_-_Archer 1      103  
+U37	  Solider-Cavalry1	 2	  101
+R32     Artisanship            1      84     
+R42     Leather_Armor_Mounted  1      103
+B79       Watch_Tower          2      -1               
+R108    Gold_Mining            1      84        
+U37	  Solider-Cavalry1	 2	  101
+R44     Scale_Armor_-_Archers  1      103       
+R12     Sentry_Tower           1      68        
+U37	  Solider-Cavalry1	 1	  101
+U35       Soldier-Catapult1    1      49     
+
+C103    Iron_Age               1      109       
+B87       Range1               1      -1        
+U25       Soldier-El_Archer    2      87        
+R110    Craftmanship           1      84               
+U25       Soldier-El_Archer    2      87        
+R54     Heavy_Catapult         1      49        
+U25       Soldier-El_Archer    2      87        
+U11       Soldier-Balista      1      49        
+U25       Soldier-El_Archer    2      87        
+R37     Alchemy                1      82        
+U25       Soldier-El_Archer    2      87        
+U35       Soldier-Catapult1    1      49     
+R45     Scale_Armor_-_Cavalry  1      103       
+R51     Metal_Working          1      103       
+R34     Nobility               1      82
+R49     Chain_Mail_-_Archers   1      103
+U25       Soldier-El_Archer    5      87        
+U46       Soldier-Elephant     1      101       
+U11       Soldier-Balista      2      49       
+
+//End
+

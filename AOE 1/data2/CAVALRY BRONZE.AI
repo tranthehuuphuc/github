@@ -1,0 +1,67 @@
+//Cavalry Bronze
+//received by: all but egypt & sumer
+//14 Cavalry, 10 catapults 
+//retrains: 2 archers, 4 axemen
+//16-8 villagers
+//Revision 2: July 4th: Changed to go to the Iron Age
+//Revision 3: July 8th: Debugged the Iron Age
+//Revision 4: 7/16/97:  Market moved up; Scouts on limited retrain
+//Revision 5: 6/25/98: dropped clubmen, farms; replaced ballistas with cats;
+//added nobility
+//Revision 6: 6/30/1998: increased archers & axemen. Added more cats
+//revision 7: 7/24/98: removed upgrades unavailalbe to civs using this ai
+//8/11/1998: small changes to improve bronze time
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1            
+U83       Man                  6      109           
+B12       Barracks1            1      -1            
+U83       Man                  7      109         2  
+
+C101    Tool_Age               1      109           
+B84       Market1              1      -1            
+R107    Wood_Working           1      84     
+U83       Man                  4      109           
+B50       Farm                 2      -1     
+B101      Stable1              1      -1        
+B87       Range1               1      -1     
+U83       Man                  4      109           
+B50       Farm                 2      -1     
+R81     Domestication          1      84            
+T83       Man                  2      109           
+
+C102    Bronze_Age             1      109           
+R28     Wheel                  1      84     
+B101      Stable1              2      -1        
+U83       Man                  2      109           
+B50       Farm                 2      -1     
+R32     Artisanship            1      84     
+B82       Government_Center    1      -1     
+B49       Siege_Workshop       1      -1    
+R34     Nobility               1      82     
+B50       Farm                 2      -1     
+R46     Tool_Working           1      103           
+R42     Leather_Armor_Mounted  1      103    
+B101      Stable1              2      -1        
+R51     Metal_Working          1      103    
+R45     Scale_Armor_-_Cavalry  1      103    
+U37       Soldier-Cavalry1     10     101         
+R108    Gold_Mining            1      84     
+
+C103    Iron_Age               1      109  
+R30     Coinage                1      84     
+B49       Siege_Workshop       2      -1             
+R106    Ballistics             1      82     
+R31     Plow                   1      84             
+U37       Soldier-Cavalry1     10     101         
+U35       Soldier-Catapult1    6      49           
+R35     Engineering            1      82     
+R71     Heavy_Cavalry          1      101    
+R54     Heavy_Catapult         1      49     
+R52     Metallurgy             1      103    
+R50     Chain_Mail_-_Cavalry   1      103    
+R78     Cataphracts            1      101    
+B109      Town_Center1         1      -1            
+
+//End
+

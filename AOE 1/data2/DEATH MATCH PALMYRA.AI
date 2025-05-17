@@ -1,0 +1,74 @@
+//Death Match Palmyra.  
+//7/18/1998
+//30 massive cats; 15 armored elephants; 4-5 villagers
+//20 Soldiers deployed in 16 minutes
+//Revision 1: 6/23/98: X-Pack changes; remove all ships; added foot archers with 
+//relevant upgrades; remove writing & irrelevant upgrades. Moved engineering to 
+//iron age (where it's legal); moved up alchemy & ballistics; removed catapults;
+//forced craftsmanship to be researched before ballistas are built
+//added improved bow & composite bow
+//
+//By Ensemble Studios
+ 
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  5      109
+T83       Man                  4      109     1
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109       
+B87       Range1               1      -1   
+B84       Market1              1      -1
+
+C102    Bronze_Age             1      109
+B82       Government_Center    1      -
+B101      Stable1              1      -1     
+B49       Siege_Workshop       1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority build Items
+R109    Stone_Mining           1      84     
+U46       Soldier-Elephant     2      101    
+R47     Bronze_Shield          1      103    
+R106    Ballistics             1      82     
+R37     Alchemy                1      82
+B101      Stable1              1      -1     
+U46       Soldier-Elephant     2      101    
+R117    Iron_Shield            1      103    
+R42     Leather_Armor_Mounted  1      103    
+B49       Siege_Workshop       1      -1
+R111    Siegecraft             1      84     
+R35     Engineering            1      82     
+R45     Scale_Armor_-_Cavalry  1      103    
+R54     Heavy_Catapult         1      49     
+U35       Soldier-Catapult1    2      49     
+U46       Soldier-Elephant     2      101    
+R50     Chain_Mail_-_Cavalry   1      103    
+B49       Siege_Workshop       1      -1
+U35       Soldier-Catapult1    2      49     
+R36     Massive_Catapult       1      49     
+R125    Armored Elephants      1      101
+
+//Low Priority Build Items
+U35       Soldier-Catapult1    2      49     
+R16     Watch_Tower            1      68           
+U35       Soldier-Catapult1    4      49     
+U46       Soldier-Elephant     2      101
+U35       Soldier-Catapult1    4      49     
+R28     Wheel                  1      84           
+B101      Stable1              1      -1     
+U35       Soldier-Catapult1    4      49     
+U46       Soldier-Elephant     2      101
+U35       Soldier-Catapult1    4      49     
+R12     Sentry_Tower           1      68
+B109      Town_Center1         1      -1           
+U35       Soldier-Catapult1    4      49     
+U46       Soldier-Elephant     2      101
+B79       Watch_Tower          2      -1
+U35       Soldier-Catapult1    4      49     
+U46       Soldier-Elephant     3      101
+B79       Watch_Tower          19      -1
+
+//End

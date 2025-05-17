@@ -1,0 +1,79 @@
+//Death Match Yamato.  
+//Version 1.0: July 1, 1997
+//25 Heavy Horse Archers, 20 Cataphracts; 4-5 men
+//20 Soldiers deployed in 15 minutes
+//Revision 1: 6/23/98: X-Pack revisions; dumped weak catapults & priests; 
+//removed all ships; added cav archers & cav archer upgrades; removed
+//engineering & writing;
+//
+//By Ensemble Studios
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  5      109          
+T83       Man                  4      109    1      
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109
+B84       Market1              1      -1
+B87       Range1               1      -1
+B101      Stable1              1      -1
+
+C102    Bronze_Age             1      109          
+B82       Government_Center    1      -1
+B104      Temple1              1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+U37       Soldier-Cavalry1     2      101
+U39       Soldier-Cav3-Arc     4      87
+R46     Tool_Working           1      103
+R42     Leather_Armor_Mounted  1      103
+R41     Leather_Armor_Archer   1      103
+R107    Woodworking            1      84
+R28     Wheel                  1      84
+R45     Scale_Armor-Cavalry    1      103          
+R44     Scale_Armor-Archer     1      103          
+R51     Metal_Working          1      103          
+R32     Artisanship            1      84
+R106    Ballistics             1      82
+U37       Soldier-Cavalry1     2      101        
+U39       Soldier-Cav3-Arc     4      87
+R50     Chain_Mail-Cavalry     1      103       
+R49     Chain_Mail-Archer      1      103       
+R37     Alchemy                1      82
+R34     Nobility               1      82     
+B101      Stable1              1      -1
+B87       Range1               1      -1
+R52     Metallurgy             1      103    
+U37       Soldier-Cavalry1     2      101        
+R71     Heavy_Cavalry          1      101
+U39       Soldier-Cav3-Arc     4      87
+B101      Stable1              1      -1
+B87       Range1               1      -1
+R78     Cataphracts            1      101
+R110    Craftsmanship          1      84
+
+//Low Priority Build Items
+U37       Soldier-Cavalry1     2      101        
+B101      Stable1              1      -1
+U37       Soldier-Cavalry1     2      101            
+U39       Soldier-Cav3-Arc     4      87
+U37       Soldier-Cavalry1     2      101        
+B87       Range1               1      -1
+R38       Heavy-Horse-Archer   1      87
+U37       Soldier-Cavalry1     2      101        
+U39       Soldier-Cav3-Arc     4      87
+U37       Soldier-Cavalry1     2      101         
+B109      Town_Center1         1      -1             
+U37       Soldier-Cavalry1     2      101         
+R16     Watch_Tower            1      68 
+B79       Watch_Tower          1      -1         
+R12     Sentry_Tower           1      68     
+U39       Soldier-Cav3-Arc     5      87
+U37       Soldier-Cavalry1     2      101         
+B79       Watch_Tower          19      -1         
+
+//End
+

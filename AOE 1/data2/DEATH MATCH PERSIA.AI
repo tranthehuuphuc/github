@@ -1,0 +1,89 @@
+//Death Match Persia.  
+//Version 1.0: July 1, 1997
+//15 Cataphracts, 20 Armored Elephants, 10 Priests, 
+//4-5 men
+//20 Soldiers/ships deployed in ? minutes
+//Revision 1: 6/23/98: X-Pack changes; replaced archer elephants with Armored 
+//Elephants (no ballistics); removed boats; eliminated catapults; dumped 
+//writing; ensured all cataphract & elephant upgrades in effect; upped numbers 
+//of units produced; dropped Ranges & archer upgrades; dropped writing, wheel, 
+//and other illegal upgrades
+//
+//By Ensemble Studios
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  5      109
+R83       Man                  4      109      1
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109 
+B84       Market1              1      -1
+B101      Stable1              1      -1
+
+C102    Bronze_Age             1      109          
+B82       Government_Center    1      -1
+B104      Temple1              1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R46     Tool_Working           1      103
+R42     Leather_Armor_Mounted  1      103 
+R45     Scale_Armor_-_Cavalry  1      103          
+R34     Nobility               1      82     
+R51     Metal_Working          1      103          
+U125      Priest               2      104
+U37       Soldier-Cavalry1     2      101        
+R35     Engineering            1      82           
+B101      Stable1              1      -1
+R52     Metallurgy             1      103    
+U37       Soldier-Cavalry1     2      101        
+R71     Heavy_Cavalry          1      101
+B104      Temple1              1      -1
+U37       Soldier-Cavalry1     2      101
+B101      Stable1              1      -1
+R78     Cataphracts            1      101
+R47     Bronze-Shield          1      103
+R117    Iron-Shield            1      103
+R21     Mysticism              1      104    
+
+//Low Priority Build Items
+R125    Armored-Elephants      1      101
+B101      Stable1              1      -1
+U46       Soldier-Elephant     2      101
+U125      Priest               2      104
+R22     Astrology              1      104     
+B101      Stable1              1      -1
+U37       Soldier-Cavalry1     2      101              
+U46       Soldier-Elephant     2      101
+U125      Priest               2      104
+R5      Medium_War_Ship        1      45       
+U46       Soldier-Elephant     2      101
+U37       Soldier-Cavalry1     2      101        
+U46       Soldier-Elephant     2      101
+U125      Priest               2      104
+U37       Soldier-Cavalry1     2      101      
+U46       Soldier-Elephant     2      101
+U125      Priest               2      104
+U46       Soldier-Elephant     2      101
+R50     Chain_Mail_-_Cavalry   1      103       
+U46       Soldier-Elephant     2      101
+R24     Polytheism             1      104  
+B109      Town_Center1         1      -1             
+R18     Afterlife              1      104
+U46       Soldier-Elephant     2      101
+R20     Fanaticism             1      104           
+B101      Stable1              1      -1
+U46       Soldier-Elephant     2      101
+R16     Watch_Tower            1      68 
+R19     Monotheism             1      104    
+R12     Sentry_Tower           1      68 
+B79       Watch_Tower          1      -1         
+U37       Soldier-Cavalry1     3      101                     
+R15     Guard_Tower            1      68         
+U46       Soldier-Elephant     2      101
+B79       Watch_Tower          29      -1         
+
+//End
+

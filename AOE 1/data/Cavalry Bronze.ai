@@ -1,0 +1,68 @@
+//Cavalry Bronze
+//14 Cavalry, 6 Ballista, 4 Axemen, 2 Bowmen
+//
+//Revision 2: July 4th: Changed to go to the Iron Age
+//Revision 3: July 8th: Debugged the Iron Age
+//Revision 4: 7/16/77:  Market moved up; Scouts on limited retrain
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1            
+U83       Man                  6      109           
+B12       Barracks1            1      -1            
+T83       Man                  3      109         2  
+T73       Soldier-Inf1         2      12          3    
+T83       Man                  3      109         2 
+
+C101    Tool_Age               1      109           
+B84       Market1              1      -1            
+U83       Man                  2      109           
+B87       Range1               1      -1            
+T4        Soldier-Archer1      1      87          3     
+U83       Man                  2      109           
+B101      Stable1              1      -1        
+R107    Wood_Working           1      84     
+R46     Tool_Working           1      103           
+U83       Man                  2      109           
+R16     Watch_Tower            1      68            
+T83       Man                  2      109         2  
+B50       Farm                 2      -1            
+B79       Watch_Tower          2      -1        
+R63     Axe                    1      12            
+T73       Soldier-Inf1         2      12          2  
+R81     Domestication          1      84            
+
+C102    Bronze_Age             1      109           
+B101      Stable1              1      -1        
+U37       Soldier-Cavalry1     2     101          
+U83       Man                  2      109           
+B82       Government_Center    1      -1     
+B49       Siege_Workshop       1      -1    
+B50       Farm                 2      -1            
+U37       Soldier-Cavalry1     2     101                
+R28     Wheel                  1      84            
+U83       Man                  2      109         
+U37       Soldier-Cavalry1     2     101          
+R31     Plow                   1      84             
+U37       Soldier-Cavalry1     2     101          
+B101      Stable1              1      -1            
+U37       Soldier-Cavalry1     2     101         
+
+
+C103    Iron_Age               1      109  
+U37       Soldier-Cavalry1     2     101         
+B49       Siege_Workshop       1      -1             
+R54     Heavy_Catapult         1      49            
+U11       Soldier-Balista      2      49           
+U35       Soldier-Catapult1    1      49      
+U11       Soldier-Balista      2      49 
+R35     Engineering            1      82               
+R71     Heavy_Cavalry          1      101  
+R106    Balistics              1      82              
+U11       Soldier-Balista      2      49           
+U37       Soldier-Cavalry1     2     101
+
+B276      Wonder               1      -1     
+
+//End
+

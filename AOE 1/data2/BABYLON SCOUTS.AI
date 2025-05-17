@@ -1,0 +1,69 @@
+//BABYLON CHARIOTS
+//Tool Age attack  
+//29 Longswordsmen, 6 Priests, 4 ballistas, 6 Towers
+//retrains: 12 axemen, 2 catapults 
+//19-9 villagers
+//Revision 1: 6/25/98: X-Pack changes; made weak cats into retrains; replaced
+//iron age cats w/ballistas; added more ballistas; added Logistics; raised
+//number of post-Logistics swordsmen
+//Revision 2: 6/30/98: removed legion, made 2 villagers retrains
+//
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1       
+U83       Man                  7      109      
+B12       Barracks1            1      -1       
+U83       Man                  6      109      2
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1 
+R107    Wood_Working           1      84       
+U83       Man                  4      109 
+B50       Farm                 2      -1       
+B87       Range1               1      -1        
+B101      Stable1              1      -1     
+U83       Man                  4      109      2
+B50       Farm                 2      -1     
+R81     Domestication          1      84       
+T83       Man                  4      109      2
+
+C102    Bronze_Age             1      109      
+R28     Wheel                  1      84       
+U83       Man                  1      109      2
+B50       Farm                 2      -1     
+B82       Government_Center    1      -1     
+B101      Stable1              1      -1     
+R32     Artisanship            1      84         
+U83       Man                  1      109      2
+B50       Farm                 2      -1     
+B101      Stable1              1      -1     
+R108    Gold_Mining            1      84     
+R34     Nobility               1      82     
+R46     Tool_Working           1      103      
+R42     Leather_Armor_Mounted  1      103    
+B49       Siege_Workshop       1      -1     
+B104      Temple1              1      -1
+U40       Soldier-Chariot1     6      101    
+
+C103    Iron_Age               1      109    
+R23     Jihad                  1      104    
+R110    Craftmanship           1      84     
+R106    Ballistics             1      82     
+B49       Siege_Workshop       2      -1     
+R51     Metal_Working          1      103
+R45     Scale_Armor_-_Cavalry  1      103    
+B101      Stable1              1      -1     
+U35       Soldier-Catapult1    4      49     
+U40       Soldier-Chariot1     8      101    
+R35     Engineering            1      82     
+R30     Coinage                1      84     
+R54     Heavy_Catapult         1      49     
+B101      Stable1              1      -1     
+R37     Alchemy                1      82     
+U35       Soldier-Catapult1    4      49     
+R126    Scythe_Chariot         1      101
+R31     Plow                   1      84     
+
+//End
+
+

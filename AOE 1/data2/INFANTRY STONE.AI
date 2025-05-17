@@ -1,0 +1,79 @@
+//Choson Axemen
+//Tool Age attack  
+//29 Longswordsmen, 6 Priests, 4 ballistas, 6 Towers
+//retrains: 12 axemen, 2 catapults 
+//19-9 villagers
+//Revision 1: 6/25/98: X-Pack changes; made weak cats into retrains; replaced
+//iron age cats w/ballistas; added more ballistas; added Logistics; raised
+//number of post-Logistics swordsmen
+//Revision 2: 6/30/98: removed legion, made 2 villagers retrains
+//
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1       
+U83       Man                  7      109      
+B12       Barracks1            1      -1       
+U83       Man                  6      109      2
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1 
+R107    Wood_Working           1      84       
+U83       Man                  4      109 
+B50       Farm                 2      -1       
+B87       Range1               1      -1        
+R63     Axe                    1      12       
+U83       Man                  4      109      2
+B50       Farm                 2      -1     
+R81     Domestication          1      84       
+T83       Man                  4      109      2
+
+C102    Bronze_Age             1      109      
+R28     Wheel                  1      84       
+U83       Man                  2      109      2
+B50       Farm                 2      -1     
+B82       Government_Center    1      -1     
+R32     Artisanship            1      84         
+B12       Barracks1            2      -1       
+R64     Short_Sword            1      12       
+B50       Farm                 2      -1     
+B12       Barracks1            1      -1       
+R108    Gold_Mining            1      84     
+R46     Tool_Working           1      103      
+R40     Leather_Armor_-_Soldie 1      103    
+B49       Siege_Workshop       1      -1     
+B104      Temple1              1      -1
+R65     Broad_Sword            1      12
+R47     Bronze_Shield          1      103
+R31     Plow                   1      84     
+
+C103    Iron_Age               1      109    
+R23     Jihad                  1      104    
+U75       Soldier-Inf3         8      12         
+R106    Ballistics             1      82     
+R109    Stone_Mining           1      84     
+R66     Long_Sword             1      12     
+U75       Soldier-Inf3         4      12         
+R51     Metal_Working          1      103
+R43     Scale_Armor_-_Soldiers 1      103
+B49       Siege_Workshop       2      -1     
+R30     Coinage                1      84     
+R35     Engineering            1      82     
+R20     Fanaticism             1      104    
+R54     Heavy_Catapult         1      49     
+U35       Soldier-Catapult1    4      49     
+U75       Soldier-Inf3         4      12         
+R52     Metalurgy              1      103    
+R48     Chain_Mail_-_Soldiers  1      103    
+R80     Irrigation             1      84     
+B12       Barracks1            2      -1       
+R111    Siegecraft             1      84     
+R117    Iron_Shield            1      103    
+U75       Soldier-Inf3         4      12         
+U35       Soldier-Catapult1    4      49     
+R77     Legion                 1      12     
+R36     Massive_Catapult       1      49     
+
+//End
+
+
+

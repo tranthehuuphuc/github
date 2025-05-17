@@ -1,0 +1,75 @@
+//Greek Phalanx
+//Version 1.0 August 15th, 1997
+//16 Phalanx, 6 Ballista, 6 Catapults
+//retrains: 2 slingers
+//28 villagers
+//Revision 1: 6/12/98: Age X-Pack changes; add Tower Shield; moved up bronze &
+//iron shields; replaced some ballistas with cats
+//Revision 2: 6/25/98: drop farms, added slingers instead of clubmen, reduced 
+//cats, phalanxes; 
+//
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  6      109    
+B12       Barracks1            1      -1
+U83       Man                  7      109    
+
+C101    Tool_Age               1      109   
+B84       Market1              1      -1  
+R107    Wood_Working           1      84     
+U83       Man                  4      109       2
+B50       Farm                 2      -1     
+B101      Stable1              1      -1     
+B87       Range1               1      -1     
+U83       Man                  4      109       2
+B50       Farm                 2      -1     
+R81     Domestication          1      84     
+U83       Man                  2      109       2
+
+C102    Bronze_Age             1      109    
+R28     Wheel                  1      84     
+U83       Man                  2      109       2
+B50       Farm                 2      -1     
+B82       Government_Center    1      -1     
+R32     Artisanship            1      84     
+B0        Academy              1      -1     
+B49       Siege_Workshop       1      -1     
+R46     Tool_Working           1      103
+R40     Leather_Armor_-_Soldie 1      103 
+B50       Farm                 2      -1     
+R31     Plow                   1      84     
+U93       Soldier-Phal1        6      0      
+R108    Gold_Mining            1      84     
+
+C103    Iron_Age               1      109    
+R110    Craftmanship           1      84     
+B104      Temple1              1      -1     
+R23     Jihad                  1      104    
+R113    Aristocracy            1      82     
+B0        Academy              2      -1     
+R109    Stone_Mining           1      84     
+B49       Siege_Workshop       2      -1     
+R51     Metal_Working          1      103 
+R43     Scale_Armor_-_Soldiers 1      103
+U93       Soldier-Phal1        5      0      
+U35       Soldier-Catapult1    4      49     
+R30     Coinage                1      84     
+B0        Academy              1      -1     
+R47     Bronze_Shield          1      103    
+R73     Phalanx                1      0      
+U93       Soldier-Phal1        5      0      
+U35       Soldier-Catapult1    4      49     
+R106    Balistics              1      82     
+R111    Siegecraft             1      84     
+R52     Metallurgy             1      103    
+R48     Chain_Mail_-_Soldiers  1      103    
+R35     Engineering            1      82  
+R79     Centurion              1      0      
+R54     Heavy_Catapult         1      49
+R117    Iron_Shield            1      103    
+R37     Alchemy                1      82     
+R36     Massive_Catapult       1      49     
+B109      Town_Center1         1      -1     
+
+//End

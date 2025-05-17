@@ -1,0 +1,63 @@
+//Macedon Cavalry.ai
+//7/20/1998
+//14 Cavalry, 10 catapults 
+//retrains: 4 archers, 2 clubmen
+//16-8 villagers
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1            
+U83       Man                  6      109           
+B12       Barracks1            1      -1            
+U83       Man                  7      109         2  
+
+C101    Tool_Age               1      109           
+B84       Market1              1      -1            
+U83       Man                  2      109           
+B87       Range1               1      -1            
+U83       Man                  2      109           
+B101      Stable1              1      -1        
+B50       Farm                 2      -1     
+R107    Wood_Working           1      84     
+R46     Tool_Working           1      103           
+U83       Man                  2      109           
+U83       Man                  2      109         2  
+R81     Domestication          1      84            
+B50       Farm                 2      -1     
+T83       Man                  4      109         
+
+C102    Bronze_Age             1      109           
+U83       Man                  2      109           
+B50       Farm                 2      -1     
+B101      Stable1              1      -1        
+R42     Leather_Armor_Mounted  1      103    
+B82       Government_Center    1      -1     
+R34     Nobility               1      82     
+B49       Siege_Workshop       1      -1    
+U37       Soldier-Cavalry1     2     101                
+U37       Soldier-Cavalry1     2     101          
+R31     Plow                   1      84             
+B50       Farm                 2      -1     
+U37       Soldier-Cavalry1     2     101          
+R51     Metal_Working          1      103    
+B101      Stable1              1      -1            
+U37       Soldier-Cavalry1     2     101         
+R45     Scale_Armor_-_Cavalry  1      103    
+U37       Soldier-Cavalry1     2     101          
+
+
+C103    Iron_Age               1      109  
+B101      Stable1              1      -1            
+U37       Soldier-Cavalry1     2     101         
+B49       Siege_Workshop       1      -1             
+U35       Soldier-Catapult1    5      49      
+R71     Heavy_Cavalry          1      101  
+R106    Ballistics             1      82              
+U35       Soldier-Catapult1    5      49           
+U37       Soldier-Cavalry1     2     101
+R50     Chain_Mail_-_Cavalry   1      103    
+R52     Metallurgy             1      103    
+R78     Cataphracts            1      101    
+
+//End
+

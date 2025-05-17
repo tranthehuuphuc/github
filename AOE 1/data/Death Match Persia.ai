@@ -1,0 +1,102 @@
+//Death Match Persia.  
+//Version 1.0: July 1, 1997
+//14 Cataphracts, 12 Elephant Archers, 8 Priests, 
+//5 Juggernaughts, 4 Catapults
+//
+//20 Soldiers/ships deployed in ? minutes
+//
+//
+//By Ensemble Studios
+ 
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  7      109          
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109 
+B84       Market1              1      -1
+B87       Range1               1      -1
+B101      Stable1              1      -1
+R46     Tool_Working           1      103
+
+C102    Bronze_Age             1      109          
+B49       Siege_Workshop       1      -1
+B82       Government_Center    1      -1
+R28     Wheel                  1      84
+
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+B104      Temple1              1      -1
+R34     Nobility               1      82     
+R51     Metal_Working          1      103          
+U125      Priest               1      104
+U37       Soldier-Cavalry1     2      101        
+R35     Engineering            1      82           
+B101      Stable1              1      -1
+R52     Metalurgy              1      103    
+U37       Soldier-Cavalry1     2      101        
+R71     Heavy_Cavalry          1      101
+B104      Temple1              1      -1
+U37       Soldier-Cavalry1     2      101
+B101      Stable1              1      -1
+B87       Range1               1      -1
+R78     Cataphracts            1      101
+R21     Mysticism              1      104    
+
+
+//Low Priority Build Items
+U25       Soldier-El_Archer    2      87     
+U125      Priest               2      104
+R22     Astrology              1      104     
+B87       Range1               1      -1
+U37       Soldier-Cavalry1     2      101              
+B45       Dock_1               1      -1     
+U25       Soldier-El_Archer    2      87     
+U125      Priest               2      104
+R5      Medium_War_Ship        1      45       
+U35       Soldier-Catapult1    1      49 
+U25       Soldier-El_Archer    2      87     
+R7      Trireme                1      45     
+U25       Soldier-El_Archer    2      87     
+R37     Alchemy                1      82     
+R9      Trireme_with_Catapult  1      45
+R25     Juggernaught           1      45     
+U250      Boat-War4            1      45     
+U37       Soldier-Cavalry1     2      101        
+U35       Soldier-Catapult1    1      49     
+U125      Priest               2      104
+U37       Soldier-Cavalry1     2      101      
+R114    Writing                1      82      
+U250      Boat-War4            1      45     
+U35       Soldier-Catapult1    1      49     
+R42     Leather_Armor_Mounted  1      103 
+U250      Boat-War4            1      45     
+U37       Soldier-Cavalry1     2      101                     
+U125      Priest               1      104
+U25       Soldier-El_Archer    2      87     
+R45     Scale_Armor_-_Cavalry  1      103          
+U250      Boat-War4            1      45  
+R50     Chain_Mail_-_Cavalry   1      103       
+U35       Soldier-Catapult1    1      49     
+R106    Balistics              1      82
+R24     Polytheism             1      104  
+B109      Town_Center1         1      -1             
+R18     Afterlife              1      104
+U250      Boat-War4            1      45     
+R20     Fanaticism             1      104           
+R107    Wood_Working           1      84     
+U25       Soldier-El_Archer    2      87
+R16     Watch_Tower            1      68 
+R19     Monotheism             1      104    
+R32     Artisanship            1      84     
+R12     Sentry_Tower           1      68 
+B79       Watch_Tower          1      -1         
+R110    Craftmanship           1      84
+R15     Guard_Tower            1      68         
+B79       Watch_Tower          29      -1         
+
+//End
+

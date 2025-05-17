@@ -1,0 +1,82 @@
+//Death Match Sumeria Water.  
+//Version 1.0: August 5, 1997
+//15 Catapults, 10 Heavy Horse Archers, 6 Priests; 10 fire galleys; 4 transports
+//4-5 workers
+//20 soldiers deployed in 16 Minutes
+//
+//By Ensemble Studios
+
+
+//Quick, Threaded Research to the Iron Age 
+B109      Town_Center1         1      -1           
+U83       Man                  5      109
+T83       Man                  4      109     1
+B12       Barracks1            1      -1 
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1           
+B87       Range1               1      -1   
+B45       Dock_1               1      -1
+
+C102    Bronze_Age             1      109          
+B49       Siege_Workshop       1      -1
+B82       Government_Center    1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R16     Watch_Tower            1      68           
+R28     Wheel                  1      84
+R41     Leather_Armor_-_Archer 1      103
+R107    Wood_Working           1      84     
+R109    Stone_Mining           1      84     
+R44     Scale_Armor_-_Archers  1      103
+R32     Artisanship            1      84    
+R106    Ballistics             1      82     
+R37     Alchemy                1      82     
+R49     Chain_Mail_-_Archers   1      103    
+R54     Heavy_Catapult         1      49
+B49       Siege_Workshop       1      -1
+R111    Siege_Craft            1      84     
+R36     Massive_Catapult       1      49
+B49       Siege_Workshop       1      -1
+R38     Heavy_Horse_Archer     1      87     
+B45       Dock_1               1      -1
+U35       Soldier-Catapult1    2      49     
+B87       Range1               1      -1   
+R35     Engineering            1      82     
+U39       Soldier-Cavalry3_Arc 2      87
+B49       Siege_Workshop       1      -1     
+U39       Soldier-Cavalry3_Arc 2      87
+B49       Siege_Workshop       1      -1
+
+//Low Priority Build Items
+R5      Medium_War_Ship        1      45
+U360      Fire-Galley          2      45             
+U39       Soldier-Cavalry3_Arc 2      87
+U35       Soldier-Catapult1    2      49     
+R12     Sentry_Tower           1      68
+U35       Soldier-Catapult1    2      49     
+B45       Dock_1               1      -1
+U360      Fire-Galley          2      45             
+B79       Watch_Tower          2      -1
+R34     Nobility               1      82     
+U35       Soldier-Catapult1    2      49     
+U360      Fire-Galley          2      45             
+U35       Soldier-Catapult1    2      49     
+U39       Soldier-Cavalry3_Arc 2      87     
+U35       Soldier-Catapult1    2      49     
+U17       Boat-Transport1      2      45     
+U360      Fire-Galley          2      45             
+R15     Guard_Tower            1      68     
+B109      Town_Center1         1      -1              
+U35       Soldier-Catapult1    3      49     
+U39       Soldier-Cavalry3_Arc 2      87
+U17       Boat-Transport1      2      45     
+U360      Fire-Galley          2      45             
+R2      Ballista_Tower         1      68     
+B79     Watch_Tower            19     -1           
+
+//End
+
+

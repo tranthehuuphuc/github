@@ -1,0 +1,83 @@
+//Death Match Hittite.  
+//Version 1.0: August 18, 1997
+//28 Catapults, 10 Heavy Horse Archers, 6 Priests
+//20 soldiers deployed in ? Minutes
+//
+//By Ensemble Studios
+
+
+//Quick, Threaded Research to the Iron Age 
+B109      Town_Center1         1      -1           
+U83       Man                  9      109          
+B12       Barracks1            1      -1 
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1           
+B87       Range1               1      -1   
+R16     Watch_Tower            1      68           
+R28     Wheel                  1      84
+R41     Leather_Armor_-_Archer 1      103
+
+
+C102    Bronze_Age             1      109          
+B49       Siege_Workshop       1      -1
+R109    Stone_Mining           1      84     
+B82       Government_Center    1      -1
+R44     Scale_Armor_-_Archers  1      103
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R49     Chain_Mail_-_Archers   1      103    
+R54     Heavy_Catapult         1      49
+B49       Siege_Workshop       1      -1
+R111    Siege_Craft            1      84     
+R36     Massive_Catapult       1      49
+B49       Siege_Workshop       1      -1
+R38     Heavy_Horse_Archer     1      87     
+U35       Soldier-Catapult1    3      49     
+B87       Range1               1      -1   
+U39       Soldier-Cavalry3_Arc 2      87
+B49       Siege_Workshop       1      -1     
+U39       Soldier-Cavalry3_Arc 2      87
+B49       Siege_Workshop       1      -1
+
+//Low Priority Build Items
+U39       Soldier-Cavalry3_Arc 2      87
+U35       Soldier-Catapult1    3      49     
+R12     Sentry_Tower           1      68
+U11       Soldier-Balista      2      49
+U35       Soldier-Catapult1    3      49     
+R107    Wood_Working           1      84     
+B79       Watch_Tower          2      -1
+U35       Soldier-Catapult1    3      49     
+R32     Artisanship            1      84    
+B104      Temple1              1      -1     
+R34     Nobility               1      82     
+U35       Soldier-Catapult1    3      49   
+R110    Craftmanship           1      84  
+U125      Priest               1      104    
+R22     Astrology              1      104    
+U35       Soldier-Catapult1    3      49     
+U125      Priest               1      104    
+R35     Engineering            1      82     
+U35       Soldier-Catapult1    2      49     
+U39       Soldier-Cavalry3_Arc 2      87     
+U125      Priest               1      104    
+U35       Soldier-Catapult1    3      49     
+U125      Priest               2      104    
+R15     Guard_Tower            1      68     
+U125      Priest               1      104    
+U35       Soldier-Catapult1    3      49     
+B109      Town_Center1         1      -1              
+R37     Alchemy                1      82     
+U35       Soldier-Catapult1    2      49     
+R106    Balistics              1      82     
+U39       Soldier-Cavalry3_Arc 2      87
+R114    Writing                1      82    
+
+B79    Watch_Tower            19      -1          
+
+//End
+
+

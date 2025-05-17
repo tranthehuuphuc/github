@@ -1,0 +1,54 @@
+//Immortal Shang.  
+//16 Cavalry, 12 elephants, 2 Priests
+//Version 1.0: July 1, 1997
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1           
+U83       Man                  5      109          
+B12       Barracks1            1      -1           
+U83       Man                  8      109          
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1           
+R107    Wood_Working           1      84 
+U83       Man                  2      109          
+B50       Farm                 2      -1     
+B101      Stable1              1      -1       
+U83       Man                  2      109          
+B50       Farm                 2      -1     
+R108    Gold_Mining            1      84      
+U83       Man                  2      109          
+B50       Farm                 2      -1     
+R81     Domestication          1      84     
+U83       Man                  2      109          
+ 
+C102    Bronze_Age             1      109          
+R28     Wheel                  1      84           
+U83       Man                  2      109          
+B50       Farm                 2      -1     
+B101      Stable1              3      -1           
+B50       Farm                 2      -1     
+B82       Government_Center    1      -1           
+B104      Temple1              1      -1     
+R46     Tool_Working           1      103      
+R42     Leather_Armor_Mounted  1      103 
+R34     Nobility               1      82     
+T299      Soldier-Scout        1      101      2
+U37       Soldier-Cavalry1     5      101         
+U40       Soldier-Chariot1     6      101   
+
+C103    Iron_Age               1      109    
+R23     Jihad                  1      104    
+U37       Soldier-Cavalry1     6      101         
+U40       Soldier-Chariot1     6      101   
+R51     Metal_Working          1      103          
+R45     Scale_Armor_-_Cavalry  1      103          
+R71     Heavy_Cavalry          1      101
+B101      Stable1              2      -1           
+R52     Metallurgy             1      103    
+R50     Chain_Mail_-_Cavalry   1      103    
+R31     Plow                   1      84       
+R126    Scythe_Chariot         1      101
+R78     Cataphracts            1      101    
+
+//End

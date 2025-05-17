@@ -1,0 +1,75 @@
+//Death Match Carthage Water.ai
+//7/18/1998
+//10 triremes, 14 roach boats, 15 Helepolis, 2 hvy transports;
+//4-5 villagers
+//20 Soldiers deployed in 16 minutes
+//
+//By Ensemble Studios
+ 
+
+//Quick, Threaded Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  5      109
+T83       Man                  4      109     1
+B45       Dock_1               1      -1 
+B12       Barracks1            1      -1           
+
+C101    Tool_Age               1      109       
+B87       Range1               1      -1   
+B84       Market1              1      -1
+
+C102    Bronze_Age             1      109
+B82       Government_Center    1      -
+B49       Siege_Workshop       1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority build Items
+R5      Medium_War_Ship        1      45
+R107    Wood_Working           1      84
+R7      Trireme                1      45          
+B49       Siege_Workshop       1      -1
+R32     Artisanship            1      84    
+U11       Soldier-Balista      2      49
+B45       Dock_1               1      -1 
+R110    Craftmanship           1      84
+U19       Boat-War1            2      45
+B49       Siege_Workshop       1      -1
+U11       Soldier-Balista      2      49
+R27     Helepolis              1      49
+U360      Fire-Galley          2      45             
+R35     Engineering            1      82     
+B45       Dock_1               1      -1
+
+
+//Low Priority Build Items
+R12     Sentry_Tower           1      68
+U19       Boat-War1            2      45
+U360      Fire-Galley          2      45             
+U11       Soldier-Balista      2      49
+R37     Alchemy                1      82
+U360      Fire-Galley          2      45             
+R16     Watch_Tower            1      68           
+U11       Soldier-Balista      2      49
+U19       Boat-War1            2      45     
+R106    Ballistics             1      82     
+U360      Fire-Galley          2      45             
+R28     Wheel                  1      84           
+U19       Boat-War1            2      45     
+U11       Soldier-Balista      2      49
+U360      Fire-Galley          2      45             
+B45       Dock_1               1      -1
+U11       Soldier-Balista      2      49
+R15     Guard_Tower            1      68     
+U360      Fire-Galley          2      45             
+B109      Town_Center1         1      -1           
+B79       Watch_Tower          2      -1
+U17       Boat-Transport1      2      45     
+R8      Heavy_Transport        1      45
+U360      Fire-Galley          2      45             
+U19       Boat-War1            2      45     
+U11       Soldier-Balista      3      49     
+R2      Catapult_Tower         1      68     
+B79       Watch_Tower          19      -1
+
+//End

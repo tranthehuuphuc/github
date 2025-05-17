@@ -1,0 +1,92 @@
+//Death Match Assyria Water.  
+//Version 1.0: August 5, 1997
+//15 Helepolis, 10 horse archers, 7 Priests; 10 fire galleys; 
+//3 transports
+//4-5 villagers
+//20 Soldiers deployed in 14 minutes; 
+//
+//By Ensemble Studios
+ 
+
+//Quick Threaded, Research to the Iron Age
+B109      Town_Center1         1      -1           
+U83       Man                  5      109        
+T83       Man                  4      109       1  
+B12       Barracks1            1      -1           
+B45       Dock1                1      -1
+
+
+C101    Tool_Age               1      109       
+B87       Range1               1      -1
+B84       Market1              1      -1
+
+C102    Bronze_Age             1      109          
+B49       Siege_Workshop       1      -1
+B82       Government_Center    1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R41     Leather-Armor-Archer   1      103
+U17       Transport1           1      45
+R16     Watch_Tower            1      68
+R28     Wheel                  1      84
+R107    Wood_Working           1      84
+R5      War_Galley             1      45
+B45       Dock1                1      -1
+U17       Transport1           2      45
+R32     Artisanship            1      84    
+R44     Scale-Armor-Archer     1      103
+R106    Ballistics             1      82     
+B87       Range1               1      -1
+U11       Soldier-Balista      2      49
+B49       Siege_Workshop       1      -1     
+R110    Craftmanship           1      84
+B49       Siege_Workshop       1      -1     
+R27     Helepolis              1      49
+B45       Dock1                1      -1
+U11       Soldier-Balista      2      49                
+U360      Fire_Galley          2      45
+B79       Watch_Tower          2      -1
+U11       Soldier-Balista      2      49
+U39       Soldier-Cavalry3_Arc 2      87
+
+
+//Low Priority Build Items
+B104      Temple1              1      -1     
+R12     Sentry_Tower           1      68
+U125      Priest               1      104    
+U11       Soldier-Balista      2      49        
+R21     Mysticism              1      104   
+B104      Temple1              1      -1     
+U125      Priest               1      104    
+B45       Dock1                1      -1
+U360      Fire-Galley          2      45             
+B87       Range1               1      -1
+U39       Soldier-Cavalry3_Arc 2      87
+R22     Astrology              1      104  
+R15     Guard_Tower            1      68     
+B109      Town_Center1         1      -1           
+U125      Priest               1      104    
+R24     Polytheism             1      104
+B79       Watch_Tower          2      -1
+R19     Monotheism             1      104 
+U11       Soldier-Balista      2      49   
+R20     Fanaticism             1      104 
+U39       Soldier-Cavalry3_Arc 2      87
+U125      Priest               1      104    
+U360      Fire-Galley          2      45             
+R18     Afterlife              1      104
+U11       Soldier-Balista      2      49
+R23     Jihad                  1      104
+U39       Soldier-Cavalry3_Arc 2      87
+U125      Priest               1      104    	
+U39       Soldier-Cavalry3_Arc 2      87
+U125      Priest               2      104    	
+U11       Soldier-Balista      3      49			
+U360      Fire-Galley          4      45             
+R2      Ballista_Tower         1      68
+B79       Watch_Tower          25      -1
+
+//End
+

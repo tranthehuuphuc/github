@@ -1,0 +1,104 @@
+//Babylon Iron Water.ai
+//12 Boats, 12 Cavalry, 6 Fishing Boats, 3 Ballista, 
+//16 Villagers, 2 Transports
+//8/11/1998: small changes to improve iron time
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  6      109    
+B12       Barracks1            1      -1     
+U83       Man                  2      109    
+B45       Dock_1               1      -1     
+T83       Man                  2      109    2
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1     
+U19       Boat-War1            2      45     
+T347      Soldier-Slinger      4      12       2     
+B101      Stable1              1      -1     
+B50       Farm                 2      -1     
+U83       Man                  2      109    
+R16     Watch_Tower            1      68     
+U83       Man                  2      109      
+B79       Watch_Tower          2      -1     
+T83       Man                  2      109      2
+B50       Farm                 2      -1     
+
+C102    Bronze_Age             1      109    
+U83       Man                  2      109      
+R63     Axe                    1      12       
+R64     Short_Sword            1      12       
+B82       Government_Center    1      -1     
+R81     Domestication          1      84       
+B50       Farm                 2      -1     
+R121      Logistics            1      82
+R28     Wheel                  1      84     
+B12       Barracks1            1      -1       
+U75       Soldier-Inf3         2      12       
+R5      Medium_War_Ship        1      45     
+U75       Soldier-Inf3         2      12       
+R46     Tool_Working           1      103    
+B45       Dock_1               1      -1 
+U19       Boat-War1            2      45         
+B104      Temple1              1      -1
+U75       Soldier-Inf3         2      12       
+R40     Leather_Armor_-_Soldie 1      103    
+U83       Man                  2      109      
+R4      Fishing_Ship           1      45     
+U125      Priest               1      104
+U75       Soldier-Inf3         2      12         
+B79       Watch_Tower          1      -1     
+R12     Sentry_Tower           1      68 
+R65     Broad_Sword            1      12
+U75       Soldier-Inf3         2      12                   
+U19       Boat-War1            2      45  
+R107    Wood_Working           1      84     
+B45       Dock_1               1      -1     
+B79       Watch_Tower          2      -1     
+U75       Soldier-Inf3         2      12                   
+
+C103    Iron_Age               1      109         
+R7      Trireme                1      45  
+B87       Range1               1      -1       
+R106    Ballistics             1      82     
+R37     Alchemy                1      82          
+U19       Boat-War1            2      45     
+U75       Soldier-Inf3         2      12         
+R21     Mysticism              1      104    
+R66     Long_Sword             1      12     
+B49       Siege_Workshop       1      -1     
+R54     Heavy_Catapult         1      49
+R35     Engineering            1      82
+R51     Metal_Working          1      103     
+R8      Heavy_Transport        1      45          
+U125      Priest               1      104         
+B79       Watch_Tower          2      -1
+R22     Astrology              1      104    
+U35       Soldier-Catapult1    1      49   
+U75       Soldier-Inf3         2      12         
+R43     Scale_Armor_-_Soldiers 1      103
+U125      Priest               1      104
+R32     Artisanship            1      84             
+B79       Watch_Tower          2      -1
+R24     Polytheism             1      104    
+U125      Priest               1      104
+B79       Watch_Tower          2      -1
+R20     Fanaticism             1      104
+R47     Bronze_Shield          1      103
+U360      Fire-Galley          4      45          
+R110    Craftmanship           1      84
+U125      Priest               1      104
+R18     Afterlife              1      104
+U35       Soldier-Catapult1    1      49   
+R15     Guard_Tower            1      68     
+B79       Watch_Tower          2      -1
+U360      Fire-Galley          4      45          
+R36     Massive_Catapult       1      49
+R77     Legion                 1      12     
+B79       Watch_Tower          2      -1
+
+B276      Wonder               1      -1     
+//End
+
+

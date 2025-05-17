@@ -1,0 +1,90 @@
+//Rome Bronze Water.ai
+//7/20/1998
+//10 triremes, 2 cat triremes, 18 longswordsmen, 6 Ballista, 2 catapults
+//2 Clubmen, 2 transports
+//14-10 villagers
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  6      109    
+B12       Barracks1            1      -1     
+U83       Man                  6      109    
+T73       Soldier-Inf1         2      12     2
+B45       Dock_1               1      -1     
+T83       Man                  6      109    2
+
+C101    Tool_Age               1      109    
+B45       Dock_1               1      -1 
+B84       Market1              1      -1     
+U19       Boat-War1            1      45     
+B87       Range1               1      -1     
+U83       Man                  2      109    
+U19       Boat-War1            1      45     
+R16     Watch_Tower            1      68     
+B79       Watch_Tower          2      -1 
+U19       Boat-War1            2      45         
+T83       Man                  2      109    2
+B50       Farm                 2      -1     
+B79       Watch_Tower          1      -1     
+R63     Axe                    1      12     
+
+C102    Bronze_Age             1      109    
+B82       Government_Center    1      -1     
+R64     Short_Sword            1      12     
+U75       Soldier-Inf3         2      12     
+B12       Barracks1            1      -1     
+R4      Fishing_Ship           1      45     
+R12     Sentry_Tower           1      68     
+B12       Barracks1            1      -1     
+B49       Siege_Workshop       1      -1     
+R81     Domestication          1      84     
+B50       Farm                 2      -1     
+U35       Soldier-Catapult1    1      49     
+R107    Wood_Working           1      84     
+U19       Boat-War1            3      45  
+R5      Medium_War_Ship        1      45     
+U75       Soldier-Inf3         2      12     
+R65     Broad_Sword            1      12     
+U75       Soldier-Inf3         2      12     
+B45       Dock_1               1      -1     
+T83       Man                  2      109    2
+U17       Boat-Transport1      2      45     
+R46     Tool_Working           1      103    
+U75       Soldier-Inf3         2      12     
+R40     Leather_Armor_-_Soldie 1      103    
+B79       Watch_Tower          2      -1     
+B50       Farm                 2      -1     
+R28     Wheel                  1      84     
+U19       Boat-War1            3      45 
+U75       Soldier-Inf3         2      12     
+R47     Bronze_Shield          1      103    
+U35       Soldier-Catapult1    1      49     
+
+C103    Iron_Age               1      109         
+R7      Trireme                1      45  
+B49       Siege_Workshop       1      -1     
+U11       Soldier-Balista      2      49 
+R8      Heavy_Transport        1      45          
+R121    Logistics              1      82
+R32     Artisanship            1      84             
+R106    Ballistics             1      82
+U75       Soldier-Inf3         2      12     
+R43     Scale_Armor_-_Soldiers 1      103    
+U75       Soldier-Inf3         2      12     
+U11       Soldier-Balista      2      49                   
+U75       Soldier-Inf3         2      12     
+R9      Trireme_with_Catapult  1      45          
+R66     Long_Sword             1      12     
+U75       Soldier-Inf3         2      12     
+U250      Boat-War4            2      45          
+U11       Soldier-Balista      2      49          
+R110    Craftmanship           1      84
+R48     Chain_Mail_-_Soldiers  1      103    
+R51     Metal_Working          1      103    
+R35     Engineering            1      82     
+
+B276      Wonder               1      -1     
+
+//End
+
+

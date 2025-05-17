@@ -1,0 +1,15 @@
+--== AGE OF EMPIRE ==--
+--== (C) Ensemble/Microsoft ==--
+
+Game Type    : Real Time Strategy
+
+Requirements : Pentium 90, 16MB RAM, 70MB HDD, Win95/NT
+
+Introduction :
+Age of Empires is an epic real-time strategy game spanning 10,000 years, in which players are the guiding spirit in the evolution of small stone age tribes. Starting with minimal resources, players are challenged to build their tribes into great civilizations. Gamers can choose from one of several ways to win the game, including: world domination by conquering enemy civilizations, exploration of the known world and economic victory through the accumulation of wealth. Age of Empires was developed by Ensemble Studios and features the expertise of Bruce Shelley, co-designer of the hit strategy game Civilization.
+
+Installation :
+1. EZI Installer will copy the game to your harddisk C:\EMPIRE
+2. Change Directory to C:\EMPIRE
+3. Run SETUP.EXE to configure registry
+4. Run EMPIRES.EXE

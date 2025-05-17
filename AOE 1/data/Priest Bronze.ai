@@ -1,0 +1,79 @@
+//Priest Bronze 
+//10 Priests, 12 Phalanx, 5 Ballista
+//
+//Revision 2: 7/02/97: Continue research into the Iron Age
+//Revision 3: 7/16/77: Market moved up; Scouts on limited retrain
+//Revision 4: 8/ 1/97: Moved Govt Center to Iron Age
+//
+//
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  8      109    
+B12       Barracks1            1      -1     
+U83       Man                  7      109    
+T73       Soldier-Inf1         4      12     1
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1     
+T83       Man                  2      109    2
+R16     Watch_Tower            1      68     
+B79       Watch_Tower          3      -1     
+B87       Range1               1      -1     
+T83       Man                  2      109    2
+U4        Soldier-Archer1      2      87     2
+B101      Stable1              1      -1     
+R40     Leather_Armor_-_Soldie 1      103    
+T299      Soldier-Scout        1      101    
+R46     Tool_Working           1      103    
+T83       Man                  2      109    2
+U13       Boat-Fishing1        1      45     
+R108    Gold_Mining            1      84     
+B50       Farm                 3      -1     
+R63     Axe                    1      12     
+
+C102    Bronze_Age             1      109    
+B104      Temple1              1      -1     
+B50       Farm                 2      -1     
+U125      Priest               1      104       
+B0        Academy              1      -1     
+T83       Man                  2      109    2
+B104      Temple1              1      -1     
+U93       Soldier-Phal1        2      0   
+U125      Priest               1      104       
+R28     Wheel                  1      84     
+U93       Soldier-Phal1        2      0      
+U125      Priest               2      104    
+B104      Temple1              2      -1     
+U125      Priest               2      104    
+R21     Mysticism              1      104    
+U93       Soldier-Phal1        2      0      
+R24     Polytheism             1      104    
+R43     Scale_Armor_-_Soldiers 1      103    
+B79       Watch_Tower          2      -1     
+U125      Priest               2      104    
+U93       Soldier-Phal1        2      0      
+R51     Metal_Working          1      103    
+R47     Bronze_Shield          1      103    
+U125      Priest               2      104    
+R12     Sentry_Tower           1      68     
+B49       Siege_Workshop       1      -1     
+U35       Soldier-Catapult1    2      49     
+U93       Soldier-Phal1        4      0      
+
+C103    Iron_Age               1      109    
+R19     Monotheism             1      104    
+U125      Priest               2      104
+R20     Fanaticism             1      104    
+R18     Afterlife              1      104    
+B82       Government_Center    1      -1     
+R15     Guard_Tower            1      68     
+B79       Watch_Tower          1      -1            
+R48     Chain_Mail_-_Soldiers  1      103    
+R54     Heavy_Catapult         1      49     
+U11       Soldier-Balista      5      49     
+   
+B276      Wonder               1      -1     
+
+//End
+

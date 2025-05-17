@@ -1,0 +1,94 @@
+//Death Match Phoenicia.  
+//Version 1.0: August 15, 1997
+//15 Priests, 25 Ballista Towers, 15 Armored Elephants; 15 elephant archers
+//4-5 workers
+//20 Soldiers deployed in ? minutes
+//Revision 1: 6/23/98: X-Pack changes; eliminate boats, chariots, & 
+//(ineffective) cats; add archer elephants; removed illegal & useless upgrades
+//such as architecture & nobility; replaced siege workshops with ranges &
+//moved up gov center to bronze age; removed chariots
+//
+//By Ensemble Studios
+ 
+
+//Quick, Threaded Research to the Iron Age
+
+B109      Town_Center1         1      -1           
+U83       Man                  5      109          
+T83       Man                  4      109      1
+B12       Barracks1            1      -1  
+
+C101    Tool_Age               1      109       
+B84       Market1              1      -1           
+B101      Stable1              1      -1 
+
+C102    Bronze_Age             1      109
+B82       Government_Center    1      -1
+B104      Temple1              1      -1  
+B87       Range1               1      -1
+
+C103    Iron_Age               1      109
+
+//High Priority Build Items
+R42     Leather_Armor_Mounted  1      103
+R41     Leather-armor-archer   1      103
+R16     Watch_Tower            1      68
+R107    Wood_Working           1      84     
+R28     Wheel                  1      84
+R21     Mysticism              1      104    
+B87       Range1               1      -1
+R22     Astrology              1      104
+R32     Artisanship            1      84     
+R106    Ballistics             1      82 
+R37     Alchemy                1      82
+B104      Temple1              1      -1     
+U125      Priest               2      104    
+B104      Temple1              1      -1     
+U25       Soldier-Ele-Archer   2      87
+R24     Polytheism             1      104
+B104      Temple1              1      -1
+R19     Monotheism             1      104    
+R45     Scale_Armor-Cavalry    1      103          
+U25       Soldier-Ele-Archer   2      87
+R44     Scale_Armor-Archer     1      103          
+U46       Soldier-Elephant     2      101
+R20     Fanaticism             1      104
+B101      Stable1              1      -1 
+R18     Afterlife              1      104
+B101      Stable1              1      -1 
+U46       Soldier-Elephant     2      101
+R23     Jihad                  1      104
+R110    Craftmanship           1      84
+R47     Bronze-Shield          1      103
+R117    Iron-Shield            1      103
+R125    Armored-Elephant       1      101
+
+//Low Priority Build Items
+B87       Range1               1      -1
+U125      Priest               2      104
+R12     Sentry_Tower           1      68
+U125      Priest               2      104
+U25       Soldier-Ele-Archer   2      87
+U46       Soldier-Elephant     2      101
+B79       Watch_Tower          1      -1
+B109      Town_Center1         1      -1           
+U125      Priest               2      104
+U25       Soldier-Ele-Archer   2      87
+U46       Soldier-Elephant     2      101
+R15     Guard_Tower            1      68 
+B79       Watch_Tower          2      -1
+U125      Priest               2      104                 
+R2      Catapult_Tower         1      68     
+B79       Watch_Tower          2      -1  
+U46       Soldier-Elephant     2      101
+B79       Watch_Tower          2      -1
+U25       Soldier-Ele-Archer   2      87
+U125      Priest               5      104                     
+B79       Watch_Tower          2      -1 
+U46       Soldier-Elephant     5      101
+U25       Soldier-Ele-Archer   5      87
+B79       Watch_Tower          16      -1 
+
+//End
+
+

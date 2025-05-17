@@ -1,0 +1,63 @@
+//Cavalry Iron
+//18 Cavalry, 6 Ballista, 2 Archers
+//
+//Revision 2: July 8th 1997 Switched the Academy with a Gov't Center
+//Revision 3: 7/16/77: Market moved up; Scouts on limited retrain
+//
+//By Ensemble Studios
+
+B109      Town_Center1         1      -1       
+U83       Man                  5      109      
+B12       Barracks1            1      -1       
+U83       Man                  6      109      
+
+C101    Tool_Age               1      109      
+B84       Market1              1      -1       
+B50       Farm                 2      -1       
+T83       Man                  2      109      2
+B87       Range1               1      -1       
+R107	  Wood_Working		 1	  84
+T4        Soldier-Archer1      3      87       2
+T83       Man                  2      109      2
+B101      Stable1              1      -1     
+U83       Man                  2      109      
+R46     Tool_Working           1      103      
+T83       Man                  2      109      2
+R16     Watch_Tower            1      68       
+U83       Man                  2      109      
+B79       Watch_Tower          2      -1     
+B50       Farm                 2      -1       
+
+C102    Bronze_Age             1      109    
+B82       Government_Center    1      -1 
+R28     Wheel                  1      84       
+U37       Soldier-Cavalry1     2      101      
+U83       Man                  2      109      
+B101      Stable1              1      -1       
+U37       Soldier-Cavalry1     2      101      
+R42	  Leather_Armor_Mounted  1      103
+U37       Soldier-Cavalry1     2      101      
+R45	  Scale_Armor_Cavalry    1	  103
+U37       Soldier-Cavalry1     1      101      
+R34	    Nobility		 1      82
+R32	    Artisanship	       1      84
+R51	    Metal_Working		 1	  103
+R108	    Gold_Mining	       1	  84
+B49       Siege_Workshop       1      -1       
+
+C103    Iron_Age               1      109      
+U37       Soldier-Cavalry1     2      101      
+R52       Metalurgy		 1      103
+B101      Stable1              1      -1       
+U37       Soldier-Cavalry1     4      101      
+U11       Soldier-Balista      2      49      
+U37       Soldier-Cavalry1     2      101 
+U11       Soldier-Balista      2      49           
+R50     Chain_Mail_-_Cavalry	 1	  103
+U37       Soldier-Cavalry1     3      101      
+R71     Heavy_Cavalry          1      101      
+U11       Soldier-Balista      2      49      
+R78	  Cataphracts	       1	  101          
+
+//End
+

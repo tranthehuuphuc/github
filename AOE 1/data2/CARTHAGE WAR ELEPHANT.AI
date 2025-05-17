@@ -1,0 +1,64 @@
+//Carthage Phalanx.ai
+//Version 1.0 July 06, 1998
+//14 Phalanx, 10 Ballista 
+//retrains: 4 slingers, 1 scout, 4 camels
+//16-10 villagers
+//
+//By Nguyen Anh Tuan
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  7      109    
+B12       Barracks1            1      -1
+U83       Man                  6      109    
+
+C101    Tool_Age               1      109   
+B84       Market1              1      -1  
+U83       Man                  4      109       2
+B50       Farm                 2      -1     
+R107    Wood_Working           1      84     
+B101      Stable1              1      -1     
+B87       Range1               1      -1     
+U83       Man                  4      109       2
+B50       Farm                 2      -1     
+R81     Domestication          1      84     
+T83       Man                  4      109       2
+
+C102    Bronze_Age             1      109    
+R28     Wheel                  1      84     
+U83       Man                  2      109       2
+B50       Farm                 2      -1     
+B101      Stable1              1      -1     
+B82       Government_Center    1      -1     
+R108    Gold_Mining            1      84     
+R46     Tool_Working           1      103
+R40     Leather_Armor_-_Soldie 1      103 
+B50       Farm                 2      -1     
+B0        Academy              1      -1     
+B104      Temple1              1      -1     
+R51     Metal_Working          1      103 
+R43     Scale_Armor_-_Soldiers 1      103
+U93       Soldier-Phal1        3      0      
+R31     Plow                   1      84     
+R47     Bronze_Shield          1      103    
+
+C103    Iron_Age               1      109    
+R23     Jihad                  1      104    
+B0        Academy              1      -1     
+R30     Coinage                1      84     
+U93       Soldier-Phal1        5      0      
+U46       Soldier-Elephant     2      101    
+R113    Aristocracy            1      82     
+B0        Academy              2      -1     
+R52     Metallurgy             1      103    
+R48     Chain_Mail_-_Soldiers  1      103    
+B101      Stable1              1      -1     
+U93       Soldier-Phal1        8      0      
+U46       Soldier-Elephant     4      101    
+R117    Iron_Shield            1      103    
+R73     Phalanx                1      0      
+R79     Centurion              1      0      
+R80     Irrigation             1      84     
+B109      Town_Center1         1      -1     
+
+//End
+
