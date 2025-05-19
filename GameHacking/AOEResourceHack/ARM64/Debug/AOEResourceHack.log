@@ -1,0 +1,21 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(21,39): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(21,39): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(58,38): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPVOID' of greater size
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(63,42): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPVOID' of greater size
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(69,38): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  (compiling source file '/dllmain.cpp')
+  
+C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\AOEResourceHack\dllmain.cpp(73,39): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+  (compiling source file '/dllmain.cpp')
+  
+  AOEResourceHack.vcxproj -> C:\Users\Tran The Huu Phuc\Desktop\github\GameHacking\ARM64\Debug\AOEResourceHack.dll
