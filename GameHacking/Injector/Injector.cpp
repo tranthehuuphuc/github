@@ -1,5 +1,5 @@
-// Injector.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// This program injects a DLL into a target process (EMPIRESX.EXE) to modify its memory.
+
+// Injector.cpp
 
 #include <Windows.h>
 #include <TlHelp32.h>
